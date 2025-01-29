@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Web Page</title>
+    <link
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <nav id="parentNavbar" class="navbar bg-body-tertiary">
+        <div  id="navbar1" class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            Web Page
+        </a>
+        </div>
+    </nav>
+
+    <div class="container">
+    <h4 class="my-4">Dynamic Data Fetching with AJAX</h4>
+    </div>
+    <button id="fetchDataBtn" class="btn btn-success mb-4">Fetch Data</button>
+    <button class="btn btn-danger mb-4"><a href="index.html">Reset</a></button>
+    <hr>
+    <div id="dataContainer"></div>
+    <div class="footer">
+        <h4>Using a AJAX </h4>
+    </div>
+    
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
